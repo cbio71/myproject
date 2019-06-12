@@ -1,3 +1,1 @@
 # myproject
-
-Readme per netlify
