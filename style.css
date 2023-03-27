@@ -1,69 +1,38 @@
+/* Imposta il font predefinito del sito */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
+  font-family: Arial, sans-serif;
 }
 
-header {
-    background-image: url('header-bg.jpg');
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/* Imposta il colore di sfondo del sito */
+body {
+  background-color: #f5f5f5;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+/* Imposta il colore dei link */
+a {
+  color: #007bff;
 }
 
-nav li {
-    margin-right: 20px;
+/* Imposta lo stile dei link quando passi sopra di essi */
+a:hover {
+  text-decoration: underline;
 }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.3s ease;
+/* Imposta lo stile delle intestazioni */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-nav a:hover {
-    color: #f00;
+/* Imposta lo stile dei paragrafi */
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
 }
 
-.header-content {
-    text-align: center;
-    color: #fff;
+/* Imposta la larghezza massima dell'area principale del sito */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
-h1 {
-    font-size: 48px;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 50px;
-}
-
-h2 {
-    font-size: 32px;
-    margin: 0;
-    padding: 0;
-}
-
-footer {
-
-  }
